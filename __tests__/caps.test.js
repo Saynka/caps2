@@ -1,4 +1,4 @@
-const caps = require('../caps.js');
+const testy = require('../testy.js');
 
 
 let logSpy = jest.spyOn(console, 'log').mockImplementation();
@@ -8,31 +8,31 @@ afterAll(() => {
 });
 
 
-describe('should test caps/vender/driver console log', () => {
+describe('should test testy/vender/driver console log', () => {
 
   it('checks new order console.logs', () => {
-    caps.pickUp();
+    testy.on(payload);
     setTimeout(() => {
       expect(logSpy).toHaveBeenCalled()
     }, 2000)
   });
 
   it('checks delievered console.logs', () => {
-    caps.inTransit();
+    testy.on(payload);
     setTimeout(() => {
       expect(logSpy).toHaveBeenCalled()
     }, 4000)
   });
 
   it('checks new order console.logs', () => {
-    caps.start(fake);
+    testy.on(payload);
     setTimeout(() => {
       expect(logSpy).toHaveBeenCalled()
     }, 6000)
   });
 
   it('checks delievered console.logs', () => {
-    caps.delievered(fake);
+    testy.on(payload);
     expect(logSpy).toHaveBeenCalled();
   });
 

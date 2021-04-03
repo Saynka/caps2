@@ -6,9 +6,12 @@
 
 ### Links and Resources
 
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [caps2](https://github.com/Saynka/caps2)
+- [ci/cd-caps2](https://github.com/Saynka/caps2/actions) (GitHub Actions)
+- [vender](https://github.com/Saynka/vender)
+- [ci/cd-vender](https://github.com/Saynka/vender/actions) (GitHub Actions)
+- [driver](https://github.com/Saynka/driver)
+- [ci/cd-driver](https://github.com/Saynka/driver/actions) (GitHub Actions)
 
 ### Setup
 
@@ -45,4 +48,5 @@ i.e.
 
 #### UML
 
-![UML Example](./reference/uml-1.png)
+![whitebord](./assets/caps1.png)
+![whitebord2](./assets/caps2.png)
