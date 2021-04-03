@@ -2,10 +2,10 @@
   "name": "caps2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "caps.js",
   "scripts": {
     "test": "jest --coverage",
-    "start": "node index.js"
+    "start": "node caps.js"
   },
   "repository": {
     "type": "git",
